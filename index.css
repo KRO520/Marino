@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+header{
+    background: url(image-52kv4q3u.png);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#logo{
+    width: 30%;
+}
+
+header h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Aoboshi One', serif;
+}
+
+header li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-color: rgb(13, 34, 92);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+    background: rgb(13, 34, 92);
+}
+
+header li:hover{
+    transform: scale(1.1);
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+}
+
+main{
+    background: url(cool-background\ \(1\).svg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.comidas{
+    text-align: center;
+    padding: 10px;
+}
+
+.comidas h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px;
+}
+
+ol{
+    -webkit-columns: 2; 
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.comidas p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+footer{
+    text-align: center;
+    background-color: #000002;
+    padding: 10px;
+}
+
+.a{
+    color: rgb(127, 136, 145);
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    color: #565656;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#4d4b4b;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #070713;
+}
